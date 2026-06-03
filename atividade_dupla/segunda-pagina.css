@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.segunda-pagina{
+    background-image: url(assets/wallpaper3.jpeg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
