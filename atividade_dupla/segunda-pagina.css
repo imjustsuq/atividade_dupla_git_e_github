@@ -5,8 +5,56 @@
 }
 
 .segunda-pagina{
-    background-image: url(assets/wallpaper3.jpeg);
-    background-color: black;
+    background-image: url(assets/wallpaper10.jpeg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-size: cover;
+}
+
+
+
+.segunda-pagina h1{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 35px;
+    color: bisque;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px bisque;
+}
+.segunda-pagina p{
+    font-family: verdana;
+    color: white;
+}
+.menu_paginas {
+    position: fixed;
+    width: 100%;
+    background: #B54C70;
+    background-color: transparent;
+    backdrop-filter: blur(0.5px);
+    padding: 15px 0;
+    text-align: center;
+    background-color: inherit 10;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    transition: 0.4;
+}
+nav a:hover{
+    background: #fafafa;
+    color: rgb(0, 0, 0);
+    box-shadow:
+        0 0 10px #136f99,
+        0 0 20px #136f99,
+        0 0 40px #136f99;
+
+    transform: scale(1.08);
 }
