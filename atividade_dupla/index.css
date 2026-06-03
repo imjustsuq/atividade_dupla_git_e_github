@@ -5,9 +5,28 @@
 }
 
 .body_index {
-    background-image: url(assets/moon-4k-full-moon-on-lake-k7hfq94wlhjknxe9.jpg);
+    background-image: url(assets/body-of-water-under-moonlight-4k-mzjxs01nyjj15yzu.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.body_index h1 {
+    margin: 10px;
+    padding: 20px;
+}
+.body_index p {
+    margin: 10px;
+    padding: 20px 40px;
+}
+
+.menu_index {
+    color: rgb(71, 35, 85);
+    background-color: transparent;
+    margin: 15px;
+    text-align: center
+}
+nav a {
+    color: rgb(94, 77, 100);
+    margin-bottom: 10px;
 }
